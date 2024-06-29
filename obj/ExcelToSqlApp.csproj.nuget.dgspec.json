@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/marcopercolla/Desktop/prove code/ExcelToSqlApp/ExcelToSqlApp.csproj": {}
+  },
+  "projects": {
+    "/Users/marcopercolla/Desktop/prove code/ExcelToSqlApp/ExcelToSqlApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/marcopercolla/Desktop/prove code/ExcelToSqlApp/ExcelToSqlApp.csproj",
+        "projectName": "ExcelToSqlApp",
+        "projectPath": "/Users/marcopercolla/Desktop/prove code/ExcelToSqlApp/ExcelToSqlApp.csproj",
+        "packagesPath": "/Users/marcopercolla/.nuget/packages/",
+        "outputPath": "/Users/marcopercolla/Desktop/prove code/ExcelToSqlApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/marcopercolla/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.102.2, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
